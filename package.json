@@ -1,0 +1,39 @@
+{
+  "name": "redis-warlock",
+  "version": "0.0.2",
+  "description": "Battle-hardened distributed locking using redis",
+  "main": "lib/warlock.js",
+  "scripts": {
+    "test": "mocha -R list ./test/warlock",
+    "bench": "mocha -R list ./test/bench"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grapevine-ai/redis-warlock.git"
+  },
+  "keywords": [
+    "node.js",
+    "redis",
+    "lock"
+  ],
+  "author": "Nathaniel Cohen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grapevine-ai/redis-warlock/issues"
+  },
+  "homepage": "https://github.com/grapevine-ai/redis-warlock",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "uuid": "^8.3.2",
+    "warlock-script": "^0.0.2"
+  },
+  "devDependencies": {
+    "ioredis": "^4.23.0",
+    "mocha": "^8.3.1",
+    "should": "^13.2.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
