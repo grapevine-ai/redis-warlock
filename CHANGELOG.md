@@ -3,6 +3,10 @@ Changelog
 
 # v0.0.2
 
+* Support for promises
+
+# v0.0.2
+
 * New repo name
 
 # v0.0.1
